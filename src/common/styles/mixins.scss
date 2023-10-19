@@ -1,0 +1,16 @@
+@mixin primaryButton($min-width,$min-height) {
+  min-width: $min-width;
+  height: $min-height;
+  text-align: center;
+  background: aliceblue;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+
+
+  &:hover {
+    cursor: pointer;
+    background: rgb(209, 223, 253);
+    border: 1px solid rgba(101, 103, 253, 0.64);
+  }
+}
